@@ -10,7 +10,7 @@ return {
     "catppuccin",
     event = "VeryLazy",
   },
-  { import = "astrocommunity.colorscheme.tokyonight" },
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   {
     "folke/tokyonight.nvim",
     event = "VeryLazy",
@@ -20,12 +20,12 @@ return {
     "sainnhe/everforest",
     event = "VeryLazy",
   },
-  { import = "astrocommunity.colorscheme.gruvbox" },
+  { import = "astrocommunity.colorscheme.gruvbox-nvim" },
   {
     "ellisonleao/gruvbox.nvim",
     event = "VeryLazy",
   },
-  { import = "astrocommunity.colorscheme.kanagawa" },
+  { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   {
     "rebelot/kanagawa.nvim",
     event = "VeryLazy",
@@ -35,17 +35,17 @@ return {
     "echasnovski/mini.base16",
     event = "VeryLazy",
   },
-  { import = "astrocommunity.colorscheme.nightfox" },
+  { import = "astrocommunity.colorscheme.nightfox-nvim" },
   {
     "EdenEast/nightfox.nvim",
     event = "VeryLazy",
   },
-  { import = "astrocommunity.colorscheme.onigiri" },
+  { import = "astrocommunity.colorscheme.onigiri-nvim" },
   {
     "kaiuri/onigiri.nvim",
     event = "VeryLazy",
   },
-  { import = "astrocommunity.colorscheme.oxocarbon" },
+  { import = "astrocommunity.colorscheme.oxocarbon-nvim" },
   {
     "nyoom-engineering/oxocarbon.nvim",
     event = "VeryLazy",
@@ -53,6 +53,16 @@ return {
   { import = "astrocommunity.colorscheme.rose-pine" },
   {
     "rose-pine",
+    event = "VeryLazy",
+  },
+  { import = "astrocommunity.colorscheme.mellow-nvim" },
+  {
+    "kvrohit/mellow.nvim",
+    event = "VeryLazy",
+  },
+  { import = "astrocommunity.colorscheme.neosolarized-nvim" },
+  {
+    "svrana/neosolarized.nvim",
     event = "VeryLazy",
   },
 
