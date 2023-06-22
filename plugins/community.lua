@@ -40,11 +40,11 @@ return {
     "EdenEast/nightfox.nvim",
     event = "VeryLazy",
   },
-  { import = "astrocommunity.colorscheme.onigiri-nvim" },
-  {
-    "kaiuri/onigiri.nvim",
-    event = "VeryLazy",
-  },
+  -- { import = "astrocommunity.colorscheme.onigiri-nvim" },
+  -- {
+  --   "kaiuri/onigiri.nvim",
+  --   event = "VeryLazy",
+  -- },
   { import = "astrocommunity.colorscheme.oxocarbon-nvim" },
   {
     "nyoom-engineering/oxocarbon.nvim",
@@ -60,17 +60,18 @@ return {
     "kvrohit/mellow.nvim",
     event = "VeryLazy",
   },
-  { import = "astrocommunity.colorscheme.neosolarized-nvim" },
-  {
-    "svrana/neosolarized.nvim",
-    event = "VeryLazy",
-  },
+  -- { import = "astrocommunity.colorscheme.neosolarized-nvim" },
+  -- {
+  --   "svrana/neosolarized.nvim",
+  --   event = "VeryLazy",
+  -- },
 
   -- language packs
   { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.python" },
 
   -- niceites
   { import = "astrocommunity.diagnostics.trouble-nvim" },

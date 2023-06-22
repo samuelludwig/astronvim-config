@@ -51,10 +51,26 @@ return {
   {
     "Olical/conjure",
     ft = lisp_filetypes,
+    -- Stop LSP warnings from showing up in the conjure log
+    config = function()
+      vim.api.nvim_create_autocmd("BufNewFile", {
+        group = vim.api.nvim_create_augroup("conjure_log_disable_lsp", { clear = true }),
+        pattern = { "conjure-log-*" },
+        callback = function() vim.diagnostic.disable(0) end,
+        desc = "Conjure Log disable LSP diagnostics",
+      })
+    end,
   },
 
   {
     "gpanders/nvim-parinfer",
     ft = lisp_filetypes,
+  },
+
+  { -- For the python community language pack
+    "linux-cultist/venv-selector.nvim",
+    opts = {
+      fd_binary_name = "fdfind",
+    },
   },
 }
