@@ -80,4 +80,6 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   -- git
   { import = "astrocommunity.git.neogit" },
+  { import = "astrocommunity.git.diffview-nvim" },
+  { import = "astrocommunity.git.git-blame-nvim" },
 }
