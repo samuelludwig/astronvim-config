@@ -63,8 +63,10 @@ return {
   },
 
   {
-    "gpanders/nvim-parinfer",
+    "dundalek/parpar.nvim",
+    dependencies = { "gpanders/nvim-parinfer", "julienvincent/nvim-paredit" },
     ft = lisp_filetypes,
+    config = function() require("parpar").setup() end,
   },
 
   { -- For the python community language pack

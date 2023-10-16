@@ -60,7 +60,16 @@ return {
     "kvrohit/mellow.nvim",
     event = "VeryLazy",
   },
-  -- { import = "astrocommunity.colorscheme.neosolarized-nvim" },
+  { import = "astrocommunity.colorscheme.neosolarized-nvim" },
+  {
+    "svrana/neosolarized.nvim",
+    event = "VeryLazy",
+  },
+  { import = "astrocommunity.colorscheme.nordic-nvim" },
+  {
+    "AlexvZyl/nordic.nvim",
+    event = "VeryLazy",
+  },
   -- {
   --   "svrana/neosolarized.nvim",
   --   event = "VeryLazy",
@@ -72,6 +81,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.full-dadbod" },
 
   -- niceites
   { import = "astrocommunity.diagnostics.trouble-nvim" },
