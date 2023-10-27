@@ -75,4 +75,11 @@ return {
       fd_binary_name = "fdfind",
     },
   },
+
+  { -- DeepWhite
+    "Verf/deepwhite.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function() require("deepwhite").setup {} end,
+  },
 }
