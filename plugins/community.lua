@@ -86,6 +86,9 @@ return {
   -- niceites
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.motion.leap-nvim" },
+  { import = "astrocommunity.editing-support.comment-box-nvim" },
+  { import = "astrocommunity.editing-support.yanky-nvim" },
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
 
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   -- git
