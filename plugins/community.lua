@@ -20,9 +20,9 @@ return {
     "sainnhe/everforest",
     event = "VeryLazy",
   },
-  { import = "astrocommunity.colorscheme.gruvbox-nvim" },
+  { import = "astrocommunity.colorscheme.gruvbox-baby" },
   {
-    "ellisonleao/gruvbox.nvim",
+    "luisiacc/gruvbox-baby",
     event = "VeryLazy",
   },
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
@@ -60,21 +60,66 @@ return {
     "kvrohit/mellow.nvim",
     event = "VeryLazy",
   },
-  { import = "astrocommunity.colorscheme.neosolarized-nvim" },
-  {
-    "svrana/neosolarized.nvim",
-    event = "VeryLazy",
-  },
+  -- { import = "astrocommunity.colorscheme.neosolarized-nvim" },
+  -- {
+  --   "svrana/neosolarized.nvim",
+  --   event = "VeryLazy",
+  -- },
   { import = "astrocommunity.colorscheme.nordic-nvim" },
   {
     "AlexvZyl/nordic.nvim",
     event = "VeryLazy",
   },
-  -- {
-  --   "svrana/neosolarized.nvim",
-  --   event = "VeryLazy",
-  -- },
-
+  { import = "astrocommunity.colorscheme.dracula-nvim" },
+  {
+    "Mofiqul/dracula.nvim",
+    event = "VeryLazy",
+  },
+  { import = "astrocommunity.colorscheme.fluormachine-nvim" },
+  {
+    "maxmx03/fluoromachine.nvim",
+    event = "VeryLazy",
+  },
+  { import = "astrocommunity.colorscheme.github-nvim-theme" },
+  {
+    "projekt0n/github-nvim-theme",
+    event = "VeryLazy",
+  },
+  { import = "astrocommunity.colorscheme.helix-nvim" },
+  {
+    "oneslash/helix-nvim",
+    event = "VeryLazy",
+  },
+  { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
+  {
+    "loctvl842/monokai-pro.nvim",
+    event = "VeryLazy",
+    config = function()
+      require("monokai-pro").setup {
+        filter = "pro", -- classic | octagon | pro | machine | ristretto | spectrum
+      }
+    end,
+  },
+  { import = "astrocommunity.colorscheme.melange-nvim" },
+  {
+    "savq/melange-nvim",
+    event = "VeryLazy",
+  },
+  { import = "astrocommunity.colorscheme.poimandres-nvim" },
+  {
+    "olivercederborg/poimandres.nvim",
+    event = "VeryLazy",
+  },
+  { import = "astrocommunity.colorscheme.sonokai" },
+  {
+    "sainnhe/sonokai",
+    event = "VeryLazy",
+  },
+  { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
+  {
+    "olimorris/onedarkpro.nvim",
+    event = "VeryLazy",
+  },
   -- language packs
   { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.json" },
@@ -89,6 +134,7 @@ return {
   { import = "astrocommunity.editing-support.comment-box-nvim" },
   { import = "astrocommunity.editing-support.yanky-nvim" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  { import = "astrocommunity.editing-support.multicursors-nvim" },
 
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   -- git
